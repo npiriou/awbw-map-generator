@@ -147,3 +147,9 @@ Locked buildings and units count toward requested totals. If what you keep contr
 The included **19.1 MB PPO 48000** checkpoint keeps the original FP32 weights. Training-only state was removed; exact weight equality and generation checks are recorded in `models/ppo-48000.verification.json`.
 
 Application code and model weights use the [MIT license](LICENSE). Artwork and fonts have separate rights; see [Third-party notices](THIRD_PARTY_NOTICES.md). This is an unofficial Advance Wars fan project.
+
+## Responsible use
+
+AWBW players and the Map Committee (MC) have expressed disapproval of AI-generated or botted mapmaking, especially mass uploads of low-quality maps. These uploads are likely to be ignored and may lead to moderator action.
+
+Use this tool to explore ideas, then review, edit and playtest each map before sharing it. **Do not spam AWBW's servers with unreviewed AI output.** Be selective about what you upload: quality matters more than quantity.
