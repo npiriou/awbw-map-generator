@@ -1,0 +1,9 @@
+{
+  "terrain_source": "awbw-xl/python/awbw_data/terrain.py",
+  "terrain_sha256": "5838d45616ceb21749f156470432a6ede673af1fecd57296999f840d6b472e36",
+  "unit_source": "awbw-xl/docs/reference/awbw-unit-ids-20260930.json",
+  "unit_sha256": "867b74bc666122ff4502d160b4c107a930a1e96d46dc9403453df2387c8672a7",
+  "movement_source": "awbw-xl/crates/awbw-rules/src/catalog.rs via awbw_native.movement_reference",
+  "movement_source_sha256": "69064f87b975a7c0f3ce917401dfa7be86de3bd41e2053afe619fd62c9f86c21",
+  "policy": "Frozen clear/rain/snow costs, not a runtime dependency on awbw-xl"
+}

@@ -1,0 +1,855 @@
+{
+  "costs": {
+    "clear": {
+      "bridge": {
+        "air": 1,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "mountain": {
+        "air": 1,
+        "foot": 2,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": null,
+        "tread": null
+      },
+      "pipe": {
+        "air": null,
+        "foot": null,
+        "lander": null,
+        "mech": null,
+        "pipe": 1,
+        "sea": null,
+        "tire": null,
+        "tread": null
+      },
+      "pipe_seam": {
+        "air": null,
+        "foot": null,
+        "lander": null,
+        "mech": null,
+        "pipe": 1,
+        "sea": null,
+        "tire": null,
+        "tread": null
+      },
+      "plain": {
+        "air": 1,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 2,
+        "tread": 1
+      },
+      "property": {
+        "air": 1,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "reef": {
+        "air": 1,
+        "foot": null,
+        "lander": 2,
+        "mech": null,
+        "pipe": null,
+        "sea": 2,
+        "tire": null,
+        "tread": null
+      },
+      "river": {
+        "air": 1,
+        "foot": 2,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": null,
+        "tread": null
+      },
+      "road": {
+        "air": 1,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "sea": {
+        "air": 1,
+        "foot": null,
+        "lander": 1,
+        "mech": null,
+        "pipe": null,
+        "sea": 1,
+        "tire": null,
+        "tread": null
+      },
+      "shoal": {
+        "air": 1,
+        "foot": 1,
+        "lander": 1,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "silo": {
+        "air": 1,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "silo_empty": {
+        "air": 1,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "teleport": {
+        "air": 0,
+        "foot": 0,
+        "lander": 0,
+        "mech": 0,
+        "pipe": 0,
+        "sea": 0,
+        "tire": 0,
+        "tread": 0
+      },
+      "wood": {
+        "air": 1,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 3,
+        "tread": 2
+      }
+    },
+    "rain": {
+      "bridge": {
+        "air": 1,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "mountain": {
+        "air": 1,
+        "foot": 2,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": null,
+        "tread": null
+      },
+      "pipe": {
+        "air": null,
+        "foot": null,
+        "lander": null,
+        "mech": null,
+        "pipe": 1,
+        "sea": null,
+        "tire": null,
+        "tread": null
+      },
+      "pipe_seam": {
+        "air": null,
+        "foot": null,
+        "lander": null,
+        "mech": null,
+        "pipe": 1,
+        "sea": null,
+        "tire": null,
+        "tread": null
+      },
+      "plain": {
+        "air": 1,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 3,
+        "tread": 2
+      },
+      "property": {
+        "air": 1,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "reef": {
+        "air": 1,
+        "foot": null,
+        "lander": 2,
+        "mech": null,
+        "pipe": null,
+        "sea": 2,
+        "tire": null,
+        "tread": null
+      },
+      "river": {
+        "air": 1,
+        "foot": 2,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": null,
+        "tread": null
+      },
+      "road": {
+        "air": 1,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "sea": {
+        "air": 1,
+        "foot": null,
+        "lander": 1,
+        "mech": null,
+        "pipe": null,
+        "sea": 1,
+        "tire": null,
+        "tread": null
+      },
+      "shoal": {
+        "air": 1,
+        "foot": 1,
+        "lander": 1,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "silo": {
+        "air": 1,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "silo_empty": {
+        "air": 1,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "teleport": {
+        "air": 0,
+        "foot": 0,
+        "lander": 0,
+        "mech": 0,
+        "pipe": 0,
+        "sea": 0,
+        "tire": 0,
+        "tread": 0
+      },
+      "wood": {
+        "air": 1,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 4,
+        "tread": 3
+      }
+    },
+    "snow": {
+      "bridge": {
+        "air": 2,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "mountain": {
+        "air": 2,
+        "foot": 4,
+        "lander": null,
+        "mech": 2,
+        "pipe": null,
+        "sea": null,
+        "tire": null,
+        "tread": null
+      },
+      "pipe": {
+        "air": null,
+        "foot": null,
+        "lander": null,
+        "mech": null,
+        "pipe": 1,
+        "sea": null,
+        "tire": null,
+        "tread": null
+      },
+      "pipe_seam": {
+        "air": null,
+        "foot": null,
+        "lander": null,
+        "mech": null,
+        "pipe": 1,
+        "sea": null,
+        "tire": null,
+        "tread": null
+      },
+      "plain": {
+        "air": 2,
+        "foot": 2,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 3,
+        "tread": 2
+      },
+      "property": {
+        "air": 2,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "reef": {
+        "air": 2,
+        "foot": null,
+        "lander": 2,
+        "mech": null,
+        "pipe": null,
+        "sea": 2,
+        "tire": null,
+        "tread": null
+      },
+      "river": {
+        "air": 2,
+        "foot": 2,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": null,
+        "tread": null
+      },
+      "road": {
+        "air": 2,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "sea": {
+        "air": 2,
+        "foot": null,
+        "lander": 2,
+        "mech": null,
+        "pipe": null,
+        "sea": 2,
+        "tire": null,
+        "tread": null
+      },
+      "shoal": {
+        "air": 2,
+        "foot": 1,
+        "lander": 1,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "silo": {
+        "air": 2,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "silo_empty": {
+        "air": 2,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "teleport": {
+        "air": 0,
+        "foot": 0,
+        "lander": 0,
+        "mech": 0,
+        "pipe": 0,
+        "sea": 0,
+        "tire": 0,
+        "tread": 0
+      },
+      "wood": {
+        "air": 2,
+        "foot": 2,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 3,
+        "tread": 2
+      }
+    }
+  },
+  "property_costs": {
+    "clear": {
+      "airport": {
+        "air": 1,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "base": {
+        "air": 1,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": 1,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "city": {
+        "air": 1,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "com_tower": {
+        "air": 1,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "hq": {
+        "air": 1,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "lab": {
+        "air": 1,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "port": {
+        "air": 1,
+        "foot": 1,
+        "lander": 1,
+        "mech": 1,
+        "pipe": null,
+        "sea": 1,
+        "tire": 1,
+        "tread": 1
+      }
+    },
+    "rain": {
+      "airport": {
+        "air": 1,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "base": {
+        "air": 1,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": 1,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "city": {
+        "air": 1,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "com_tower": {
+        "air": 1,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "hq": {
+        "air": 1,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "lab": {
+        "air": 1,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "port": {
+        "air": 1,
+        "foot": 1,
+        "lander": 1,
+        "mech": 1,
+        "pipe": null,
+        "sea": 1,
+        "tire": 1,
+        "tread": 1
+      }
+    },
+    "snow": {
+      "airport": {
+        "air": 2,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "base": {
+        "air": 2,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": 1,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "city": {
+        "air": 2,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "com_tower": {
+        "air": 2,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "hq": {
+        "air": 2,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "lab": {
+        "air": 2,
+        "foot": 1,
+        "lander": null,
+        "mech": 1,
+        "pipe": null,
+        "sea": null,
+        "tire": 1,
+        "tread": 1
+      },
+      "port": {
+        "air": 2,
+        "foot": 1,
+        "lander": 2,
+        "mech": 1,
+        "pipe": null,
+        "sea": 2,
+        "tire": 1,
+        "tread": 1
+      }
+    }
+  },
+  "units": {
+    "anti_air": {
+      "cost": 8000,
+      "daily_fuel": 0,
+      "max_fuel": 60,
+      "movement_points": 6,
+      "movement_type": "tread"
+    },
+    "apc": {
+      "cost": 5000,
+      "daily_fuel": 0,
+      "max_fuel": 70,
+      "movement_points": 6,
+      "movement_type": "tread"
+    },
+    "artillery": {
+      "cost": 6000,
+      "daily_fuel": 0,
+      "max_fuel": 50,
+      "movement_points": 5,
+      "movement_type": "tread"
+    },
+    "battle_copter": {
+      "cost": 9000,
+      "daily_fuel": 2,
+      "max_fuel": 99,
+      "movement_points": 6,
+      "movement_type": "air"
+    },
+    "battleship": {
+      "cost": 28000,
+      "daily_fuel": 1,
+      "max_fuel": 99,
+      "movement_points": 5,
+      "movement_type": "sea"
+    },
+    "black_boat": {
+      "cost": 7500,
+      "daily_fuel": 1,
+      "max_fuel": 60,
+      "movement_points": 7,
+      "movement_type": "lander"
+    },
+    "black_bomb": {
+      "cost": 25000,
+      "daily_fuel": 5,
+      "max_fuel": 45,
+      "movement_points": 9,
+      "movement_type": "air"
+    },
+    "bomber": {
+      "cost": 22000,
+      "daily_fuel": 5,
+      "max_fuel": 99,
+      "movement_points": 7,
+      "movement_type": "air"
+    },
+    "carrier": {
+      "cost": 30000,
+      "daily_fuel": 1,
+      "max_fuel": 99,
+      "movement_points": 5,
+      "movement_type": "sea"
+    },
+    "cruiser": {
+      "cost": 18000,
+      "daily_fuel": 1,
+      "max_fuel": 99,
+      "movement_points": 6,
+      "movement_type": "sea"
+    },
+    "fighter": {
+      "cost": 20000,
+      "daily_fuel": 5,
+      "max_fuel": 99,
+      "movement_points": 9,
+      "movement_type": "air"
+    },
+    "infantry": {
+      "cost": 1000,
+      "daily_fuel": 0,
+      "max_fuel": 99,
+      "movement_points": 3,
+      "movement_type": "foot"
+    },
+    "lander": {
+      "cost": 12000,
+      "daily_fuel": 1,
+      "max_fuel": 99,
+      "movement_points": 6,
+      "movement_type": "lander"
+    },
+    "mech": {
+      "cost": 3000,
+      "daily_fuel": 0,
+      "max_fuel": 70,
+      "movement_points": 2,
+      "movement_type": "mech"
+    },
+    "medium_tank": {
+      "cost": 16000,
+      "daily_fuel": 0,
+      "max_fuel": 50,
+      "movement_points": 5,
+      "movement_type": "tread"
+    },
+    "mega_tank": {
+      "cost": 28000,
+      "daily_fuel": 0,
+      "max_fuel": 50,
+      "movement_points": 4,
+      "movement_type": "tread"
+    },
+    "missiles": {
+      "cost": 12000,
+      "daily_fuel": 0,
+      "max_fuel": 50,
+      "movement_points": 4,
+      "movement_type": "tire"
+    },
+    "neotank": {
+      "cost": 22000,
+      "daily_fuel": 0,
+      "max_fuel": 99,
+      "movement_points": 6,
+      "movement_type": "tread"
+    },
+    "piperunner": {
+      "cost": 20000,
+      "daily_fuel": 0,
+      "max_fuel": 99,
+      "movement_points": 9,
+      "movement_type": "pipe"
+    },
+    "recon": {
+      "cost": 4000,
+      "daily_fuel": 0,
+      "max_fuel": 80,
+      "movement_points": 8,
+      "movement_type": "tire"
+    },
+    "rockets": {
+      "cost": 15000,
+      "daily_fuel": 0,
+      "max_fuel": 50,
+      "movement_points": 5,
+      "movement_type": "tire"
+    },
+    "stealth": {
+      "cost": 24000,
+      "daily_fuel": 5,
+      "max_fuel": 60,
+      "movement_points": 6,
+      "movement_type": "air"
+    },
+    "sub": {
+      "cost": 20000,
+      "daily_fuel": 1,
+      "max_fuel": 60,
+      "movement_points": 5,
+      "movement_type": "sea"
+    },
+    "tank": {
+      "cost": 7000,
+      "daily_fuel": 0,
+      "max_fuel": 70,
+      "movement_points": 6,
+      "movement_type": "tread"
+    },
+    "transport_copter": {
+      "cost": 5000,
+      "daily_fuel": 2,
+      "max_fuel": 99,
+      "movement_points": 6,
+      "movement_type": "air"
+    }
+  }
+}

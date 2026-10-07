@@ -1,0 +1,116 @@
+{
+  "model_name": "PPO 48000",
+  "checkpoint_file": "ppo-48000.pt",
+  "ppo_counter": 48000,
+  "checkpoint_step": 70000,
+  "created_at_utc": "2026-10-07T01:32:35.821738+00:00",
+  "source_checkpoint_sha256": "7d2cbf34779b5c06ac4b3ea81799f9d4170654cf68b5c19a8f672654238fce22",
+  "checkpoint_sha256": "2d6e68cf624af761afe282a30b8a7e0475ddaf6353b9c072d5677447afd2c0ec",
+  "source_bytes": 103032613,
+  "inference_bytes": 19112468,
+  "removed_fields": [
+    "run",
+    "ppo"
+  ],
+  "precision": "float32",
+  "quantized": false,
+  "weight_values_identical": true,
+  "verification": {
+    "device": "cpu",
+    "torch_version": "2.11.0+cu128",
+    "forward_outputs_identical": true,
+    "forward_heads": [
+      "tile",
+      "owner",
+      "unit_type",
+      "unit_owner",
+      "hp",
+      "cell_hidden",
+      "width",
+      "height",
+      "players",
+      "faction_count"
+    ],
+    "generation_checks": [
+      {
+        "name": "raw-no-corrections",
+        "options": {
+          "settings": {
+            "width": 12,
+            "height": 12,
+            "players": 2
+          },
+          "seed": 73,
+          "auto_correct": false
+        },
+        "identical": true,
+        "map_identical": true,
+        "report_identical": true,
+        "original_duration_seconds": 2.016,
+        "inference_duration_seconds": 1.531
+      },
+      {
+        "name": "standard-rotational",
+        "options": {
+          "settings": {
+            "width": 20,
+            "height": 20,
+            "players": 2,
+            "tags": {
+              "rotational symmetry": true
+            },
+            "categories": {
+              "Standard": true
+            }
+          },
+          "seed": 123
+        },
+        "identical": true,
+        "map_identical": true,
+        "report_identical": true,
+        "original_duration_seconds": 3.297,
+        "inference_duration_seconds": 2.703
+      },
+      {
+        "name": "editor-locks-with-guidance",
+        "options": {
+          "settings": {
+            "width": 12,
+            "height": 12,
+            "players": 2
+          },
+          "seed": 456,
+          "guidance_scale": 1.5,
+          "editor": {
+            "width": 12,
+            "height": 12,
+            "tiles": [
+              {
+                "x": 0,
+                "y": 0,
+                "id": 1
+              }
+            ],
+            "units": [],
+            "empty_units": [
+              {
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        },
+        "identical": true,
+        "map_identical": true,
+        "report_identical": true,
+        "original_duration_seconds": 3.36,
+        "inference_duration_seconds": 3.235
+      }
+    ],
+    "comparison_exclusions": [
+      "checkpoint.path",
+      "**.duration_seconds",
+      "**.elapsed_seconds"
+    ]
+  }
+}

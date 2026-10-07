@@ -1,0 +1,1697 @@
+{
+  "terrain": {
+    "1": {
+      "name": "Plain",
+      "kind": "Plain",
+      "color": "#c0e030",
+      "sprite": "map/ClassicAW1/Plain",
+      "owner": null
+    },
+    "2": {
+      "name": "Mountain",
+      "kind": "Mountain",
+      "color": "#d08848",
+      "sprite": "map/ClassicAW1/Mountain",
+      "owner": null
+    },
+    "3": {
+      "name": "Wood",
+      "kind": "Forest",
+      "color": "#48b098",
+      "sprite": "map/ClassicAW1/Wood",
+      "owner": null
+    },
+    "4": {
+      "name": "HRiver",
+      "kind": "River",
+      "color": "#6492ff",
+      "sprite": "map/ClassicAW1/River/H",
+      "owner": null
+    },
+    "5": {
+      "name": "VRiver",
+      "kind": "River",
+      "color": "#6492ff",
+      "sprite": "map/ClassicAW1/River/V",
+      "owner": null
+    },
+    "6": {
+      "name": "CRiver",
+      "kind": "River",
+      "color": "#6492ff",
+      "sprite": "map/ClassicAW1/River/C",
+      "owner": null
+    },
+    "7": {
+      "name": "ESRiver",
+      "kind": "River",
+      "color": "#6492ff",
+      "sprite": "map/ClassicAW1/River/ES",
+      "owner": null
+    },
+    "8": {
+      "name": "SWRiver",
+      "kind": "River",
+      "color": "#6492ff",
+      "sprite": "map/ClassicAW1/River/SW",
+      "owner": null
+    },
+    "9": {
+      "name": "WNRiver",
+      "kind": "River",
+      "color": "#6492ff",
+      "sprite": "map/ClassicAW1/River/WN",
+      "owner": null
+    },
+    "10": {
+      "name": "NERiver",
+      "kind": "River",
+      "color": "#6492ff",
+      "sprite": "map/ClassicAW1/River/NE",
+      "owner": null
+    },
+    "11": {
+      "name": "ESWRiver",
+      "kind": "River",
+      "color": "#6492ff",
+      "sprite": "map/ClassicAW1/River/ESW",
+      "owner": null
+    },
+    "12": {
+      "name": "SWNRiver",
+      "kind": "River",
+      "color": "#6492ff",
+      "sprite": "map/ClassicAW1/River/SWN",
+      "owner": null
+    },
+    "13": {
+      "name": "WNERiver",
+      "kind": "River",
+      "color": "#6492ff",
+      "sprite": "map/ClassicAW1/River/WNE",
+      "owner": null
+    },
+    "14": {
+      "name": "NESRiver",
+      "kind": "River",
+      "color": "#6492ff",
+      "sprite": "map/ClassicAW1/River/NES",
+      "owner": null
+    },
+    "15": {
+      "name": "HRoad",
+      "kind": "Road",
+      "color": "#98a0b8",
+      "sprite": "map/ClassicAW1/Road/H",
+      "owner": null
+    },
+    "16": {
+      "name": "VRoad",
+      "kind": "Road",
+      "color": "#98a0b8",
+      "sprite": "map/ClassicAW1/Road/V",
+      "owner": null
+    },
+    "17": {
+      "name": "CRoad",
+      "kind": "Road",
+      "color": "#98a0b8",
+      "sprite": "map/ClassicAW1/Road/C",
+      "owner": null
+    },
+    "18": {
+      "name": "ESRoad",
+      "kind": "Road",
+      "color": "#98a0b8",
+      "sprite": "map/ClassicAW1/Road/ES",
+      "owner": null
+    },
+    "19": {
+      "name": "SWRoad",
+      "kind": "Road",
+      "color": "#98a0b8",
+      "sprite": "map/ClassicAW1/Road/SW",
+      "owner": null
+    },
+    "20": {
+      "name": "WNRoad",
+      "kind": "Road",
+      "color": "#98a0b8",
+      "sprite": "map/ClassicAW1/Road/WN",
+      "owner": null
+    },
+    "21": {
+      "name": "NERoad",
+      "kind": "Road",
+      "color": "#98a0b8",
+      "sprite": "map/ClassicAW1/Road/NE",
+      "owner": null
+    },
+    "22": {
+      "name": "ESWRoad",
+      "kind": "Road",
+      "color": "#98a0b8",
+      "sprite": "map/ClassicAW1/Road/ESW",
+      "owner": null
+    },
+    "23": {
+      "name": "SWNRoad",
+      "kind": "Road",
+      "color": "#98a0b8",
+      "sprite": "map/ClassicAW1/Road/SWN",
+      "owner": null
+    },
+    "24": {
+      "name": "WNERoad",
+      "kind": "Road",
+      "color": "#98a0b8",
+      "sprite": "map/ClassicAW1/Road/WNE",
+      "owner": null
+    },
+    "25": {
+      "name": "NESRoad",
+      "kind": "Road",
+      "color": "#98a0b8",
+      "sprite": "map/ClassicAW1/Road/NES",
+      "owner": null
+    },
+    "26": {
+      "name": "HBridge",
+      "kind": "Road",
+      "color": "#98a0b8",
+      "sprite": "map/ClassicAW1/Road/HBridge",
+      "owner": null
+    },
+    "27": {
+      "name": "VBridge",
+      "kind": "Road",
+      "color": "#98a0b8",
+      "sprite": "map/ClassicAW1/Road/VBridge",
+      "owner": null
+    },
+    "28": {
+      "name": "Sea",
+      "kind": "Sea",
+      "color": "#735dff",
+      "sprite": "map/ClassicAW1/Sea/Sea",
+      "owner": null
+    },
+    "29": {
+      "name": "Shoal-N",
+      "kind": "Shoal",
+      "color": "#ffe249",
+      "sprite": "map/ClassicAW1/Shoal/N",
+      "owner": null
+    },
+    "30": {
+      "name": "Shoal-S",
+      "kind": "Shoal",
+      "color": "#ffe249",
+      "sprite": "map/ClassicAW1/Shoal/S",
+      "owner": null
+    },
+    "31": {
+      "name": "Shoal-E",
+      "kind": "Shoal",
+      "color": "#ffe249",
+      "sprite": "map/ClassicAW1/Shoal/E",
+      "owner": null
+    },
+    "32": {
+      "name": "Shoal-W",
+      "kind": "Shoal",
+      "color": "#ffe249",
+      "sprite": "map/ClassicAW1/Shoal/W",
+      "owner": null
+    },
+    "33": {
+      "name": "Reef",
+      "kind": "Sea",
+      "color": "#b6619a",
+      "sprite": "map/ClassicAW1/Reef",
+      "owner": null
+    },
+    "101": {
+      "name": "VPipe",
+      "kind": "Building",
+      "color": "#c8b088",
+      "sprite": "map/ClassicAW1/Pipe/V",
+      "owner": null
+    },
+    "102": {
+      "name": "HPipe",
+      "kind": "Building",
+      "color": "#c8b088",
+      "sprite": "map/ClassicAW1/Pipe/H",
+      "owner": null
+    },
+    "103": {
+      "name": "NEPipe",
+      "kind": "Building",
+      "color": "#c8b088",
+      "sprite": "map/ClassicAW1/Pipe/NE",
+      "owner": null
+    },
+    "104": {
+      "name": "ESPipe",
+      "kind": "Building",
+      "color": "#c8b088",
+      "sprite": "map/ClassicAW1/Pipe/ES",
+      "owner": null
+    },
+    "105": {
+      "name": "SWPipe",
+      "kind": "Building",
+      "color": "#c8b088",
+      "sprite": "map/ClassicAW1/Pipe/SW",
+      "owner": null
+    },
+    "106": {
+      "name": "WNPipe",
+      "kind": "Building",
+      "color": "#c8b088",
+      "sprite": "map/ClassicAW1/Pipe/WN",
+      "owner": null
+    },
+    "107": {
+      "name": "NPipe End",
+      "kind": "Building",
+      "color": "#c8b088",
+      "sprite": "map/ClassicAW1/Pipe/NEnd",
+      "owner": null
+    },
+    "108": {
+      "name": "EPipe End",
+      "kind": "Building",
+      "color": "#c8b088",
+      "sprite": "map/ClassicAW1/Pipe/EEnd",
+      "owner": null
+    },
+    "109": {
+      "name": "SPipe End",
+      "kind": "Building",
+      "color": "#c8b088",
+      "sprite": "map/ClassicAW1/Pipe/SEnd",
+      "owner": null
+    },
+    "110": {
+      "name": "WPipe End",
+      "kind": "Building",
+      "color": "#c8b088",
+      "sprite": "map/ClassicAW1/Pipe/WEnd",
+      "owner": null
+    },
+    "112": {
+      "name": "Missile Silo Empty",
+      "kind": "Plain",
+      "color": "#b6b6aa",
+      "sprite": "map/AW1/Neutral/SiloEmpty",
+      "owner": null
+    },
+    "115": {
+      "name": "HPipe Rubble",
+      "kind": "Plain",
+      "color": "#c0e030",
+      "sprite": "map/ClassicAW1/Neutral/HRubble-0",
+      "owner": null
+    },
+    "116": {
+      "name": "VPipe Rubble",
+      "kind": "Plain",
+      "color": "#c0e030",
+      "sprite": "map/ClassicAW1/Neutral/VRubble-0",
+      "owner": null
+    },
+    "195": {
+      "name": "Teleport Tile",
+      "kind": "Plain",
+      "color": "#272529",
+      "sprite": "map/ClassicAW1/Teleporter",
+      "owner": null
+    },
+    "34": {
+      "name": "Neutral City",
+      "kind": "city",
+      "owner": null,
+      "sprite": "map/AW1/Neutral/City-0",
+      "color": "#babdb3"
+    },
+    "35": {
+      "name": "Neutral Base",
+      "kind": "base",
+      "owner": null,
+      "sprite": "map/AW1/Neutral/Base-0",
+      "color": "#babdb3"
+    },
+    "36": {
+      "name": "Neutral Airport",
+      "kind": "airport",
+      "owner": null,
+      "sprite": "map/AW1/Neutral/Airport-0",
+      "color": "#babdb3"
+    },
+    "37": {
+      "name": "Neutral Port",
+      "kind": "port",
+      "owner": null,
+      "sprite": "map/AW1/Neutral/Port-0",
+      "color": "#babdb3"
+    },
+    "133": {
+      "name": "Neutral Com Tower",
+      "kind": "com_tower",
+      "owner": null,
+      "sprite": "map/AW1/Neutral/ComTower-0",
+      "color": "#babdb3"
+    },
+    "145": {
+      "name": "Neutral Lab",
+      "kind": "lab",
+      "owner": null,
+      "sprite": "map/AW1/Neutral/Lab-0",
+      "color": "#babdb3"
+    },
+    "111": {
+      "name": "Missile Silo",
+      "kind": "silo",
+      "owner": null,
+      "sprite": "map/AW1/Neutral/Silo-0",
+      "color": "#babdb3"
+    },
+    "40": {
+      "name": "Orange Star Airport",
+      "kind": "airport",
+      "owner": 1,
+      "sprite": "map/AW1/OrangeStar/Airport-0",
+      "color": "#babdb3"
+    },
+    "39": {
+      "name": "Orange Star Base",
+      "kind": "base",
+      "owner": 1,
+      "sprite": "map/AW1/OrangeStar/Base-0",
+      "color": "#babdb3"
+    },
+    "38": {
+      "name": "Orange Star City",
+      "kind": "city",
+      "owner": 1,
+      "sprite": "map/AW1/OrangeStar/City-0",
+      "color": "#babdb3"
+    },
+    "42": {
+      "name": "Orange Star HQ",
+      "kind": "hq",
+      "owner": 1,
+      "sprite": "map/AW1/OrangeStar/HQ-0",
+      "color": "#babdb3"
+    },
+    "41": {
+      "name": "Orange Star Port",
+      "kind": "port",
+      "owner": 1,
+      "sprite": "map/AW1/OrangeStar/Port-0",
+      "color": "#babdb3"
+    },
+    "134": {
+      "name": "Orange Star Com Tower",
+      "kind": "com_tower",
+      "owner": 1,
+      "sprite": "map/AW1/OrangeStar/ComTower-0",
+      "color": "#babdb3"
+    },
+    "146": {
+      "name": "Orange Star Lab",
+      "kind": "lab",
+      "owner": 1,
+      "sprite": "map/AW1/OrangeStar/Lab-0",
+      "color": "#babdb3"
+    },
+    "45": {
+      "name": "Blue Moon Airport",
+      "kind": "airport",
+      "owner": 2,
+      "sprite": "map/AW1/BlueMoon/Airport-0",
+      "color": "#babdb3"
+    },
+    "44": {
+      "name": "Blue Moon Base",
+      "kind": "base",
+      "owner": 2,
+      "sprite": "map/AW1/BlueMoon/Base-0",
+      "color": "#babdb3"
+    },
+    "43": {
+      "name": "Blue Moon City",
+      "kind": "city",
+      "owner": 2,
+      "sprite": "map/AW1/BlueMoon/City-0",
+      "color": "#babdb3"
+    },
+    "47": {
+      "name": "Blue Moon HQ",
+      "kind": "hq",
+      "owner": 2,
+      "sprite": "map/AW1/BlueMoon/HQ-0",
+      "color": "#babdb3"
+    },
+    "46": {
+      "name": "Blue Moon Port",
+      "kind": "port",
+      "owner": 2,
+      "sprite": "map/AW1/BlueMoon/Port-0",
+      "color": "#babdb3"
+    },
+    "129": {
+      "name": "Blue Moon Com Tower",
+      "kind": "com_tower",
+      "owner": 2,
+      "sprite": "map/AW1/BlueMoon/ComTower-0",
+      "color": "#babdb3"
+    },
+    "140": {
+      "name": "Blue Moon Lab",
+      "kind": "lab",
+      "owner": 2,
+      "sprite": "map/AW1/BlueMoon/Lab-0",
+      "color": "#babdb3"
+    },
+    "50": {
+      "name": "Green Earth Airport",
+      "kind": "airport",
+      "owner": 3,
+      "sprite": "map/AW1/GreenEarth/Airport-0",
+      "color": "#babdb3"
+    },
+    "49": {
+      "name": "Green Earth Base",
+      "kind": "base",
+      "owner": 3,
+      "sprite": "map/AW1/GreenEarth/Base-0",
+      "color": "#babdb3"
+    },
+    "48": {
+      "name": "Green Earth City",
+      "kind": "city",
+      "owner": 3,
+      "sprite": "map/AW1/GreenEarth/City-0",
+      "color": "#babdb3"
+    },
+    "52": {
+      "name": "Green Earth HQ",
+      "kind": "hq",
+      "owner": 3,
+      "sprite": "map/AW1/GreenEarth/HQ-0",
+      "color": "#babdb3"
+    },
+    "51": {
+      "name": "Green Earth Port",
+      "kind": "port",
+      "owner": 3,
+      "sprite": "map/AW1/GreenEarth/Port-0",
+      "color": "#babdb3"
+    },
+    "131": {
+      "name": "Green Earth Com Tower",
+      "kind": "com_tower",
+      "owner": 3,
+      "sprite": "map/AW1/GreenEarth/ComTower-0",
+      "color": "#babdb3"
+    },
+    "142": {
+      "name": "Green Earth Lab",
+      "kind": "lab",
+      "owner": 3,
+      "sprite": "map/AW1/GreenEarth/Lab-0",
+      "color": "#babdb3"
+    },
+    "55": {
+      "name": "Yellow Comet Airport",
+      "kind": "airport",
+      "owner": 4,
+      "sprite": "map/AW1/YellowComet/Airport-0",
+      "color": "#babdb3"
+    },
+    "54": {
+      "name": "Yellow Comet Base",
+      "kind": "base",
+      "owner": 4,
+      "sprite": "map/AW1/YellowComet/Base-0",
+      "color": "#babdb3"
+    },
+    "53": {
+      "name": "Yellow Comet City",
+      "kind": "city",
+      "owner": 4,
+      "sprite": "map/AW1/YellowComet/City-0",
+      "color": "#babdb3"
+    },
+    "57": {
+      "name": "Yellow Comet HQ",
+      "kind": "hq",
+      "owner": 4,
+      "sprite": "map/AW1/YellowComet/HQ-0",
+      "color": "#babdb3"
+    },
+    "56": {
+      "name": "Yellow Comet Port",
+      "kind": "port",
+      "owner": 4,
+      "sprite": "map/AW1/YellowComet/Port-0",
+      "color": "#babdb3"
+    },
+    "136": {
+      "name": "Yellow Comet Com Tower",
+      "kind": "com_tower",
+      "owner": 4,
+      "sprite": "map/AW1/YellowComet/ComTower-0",
+      "color": "#babdb3"
+    },
+    "148": {
+      "name": "Yellow Comet Lab",
+      "kind": "lab",
+      "owner": 4,
+      "sprite": "map/AW1/YellowComet/Lab-0",
+      "color": "#babdb3"
+    },
+    "83": {
+      "name": "Red Fire Airport",
+      "kind": "airport",
+      "owner": 6,
+      "sprite": "map/AW1/RedFire/Airport-0",
+      "color": "#babdb3"
+    },
+    "82": {
+      "name": "Red Fire Base",
+      "kind": "base",
+      "owner": 6,
+      "sprite": "map/AW1/RedFire/Base-0",
+      "color": "#babdb3"
+    },
+    "81": {
+      "name": "Red Fire City",
+      "kind": "city",
+      "owner": 6,
+      "sprite": "map/AW1/RedFire/City-0",
+      "color": "#babdb3"
+    },
+    "85": {
+      "name": "Red Fire HQ",
+      "kind": "hq",
+      "owner": 6,
+      "sprite": "map/AW1/RedFire/HQ-0",
+      "color": "#babdb3"
+    },
+    "84": {
+      "name": "Red Fire Port",
+      "kind": "port",
+      "owner": 6,
+      "sprite": "map/AW1/RedFire/Port-0",
+      "color": "#babdb3"
+    },
+    "135": {
+      "name": "Red Fire Com Tower",
+      "kind": "com_tower",
+      "owner": 6,
+      "sprite": "map/AW1/RedFire/ComTower-0",
+      "color": "#babdb3"
+    },
+    "147": {
+      "name": "Red Fire Lab",
+      "kind": "lab",
+      "owner": 6,
+      "sprite": "map/AW1/RedFire/Lab-0",
+      "color": "#babdb3"
+    },
+    "88": {
+      "name": "Grey Sky Airport",
+      "kind": "airport",
+      "owner": 7,
+      "sprite": "map/AW1/GreySky/Airport-0",
+      "color": "#babdb3"
+    },
+    "87": {
+      "name": "Grey Sky Base",
+      "kind": "base",
+      "owner": 7,
+      "sprite": "map/AW1/GreySky/Base-0",
+      "color": "#babdb3"
+    },
+    "86": {
+      "name": "Grey Sky City",
+      "kind": "city",
+      "owner": 7,
+      "sprite": "map/AW1/GreySky/City-0",
+      "color": "#babdb3"
+    },
+    "90": {
+      "name": "Grey Sky HQ",
+      "kind": "hq",
+      "owner": 7,
+      "sprite": "map/AW1/GreySky/HQ-0",
+      "color": "#babdb3"
+    },
+    "89": {
+      "name": "Grey Sky Port",
+      "kind": "port",
+      "owner": 7,
+      "sprite": "map/AW1/GreySky/Port-0",
+      "color": "#babdb3"
+    },
+    "137": {
+      "name": "Grey Sky Com Tower",
+      "kind": "com_tower",
+      "owner": 7,
+      "sprite": "map/AW1/GreySky/ComTower-0",
+      "color": "#babdb3"
+    },
+    "143": {
+      "name": "Grey Sky Lab",
+      "kind": "lab",
+      "owner": 7,
+      "sprite": "map/AW1/GreySky/Lab-0",
+      "color": "#babdb3"
+    },
+    "93": {
+      "name": "Black Hole Airport",
+      "kind": "airport",
+      "owner": 5,
+      "sprite": "map/AW1/BlackHole/Airport-0",
+      "color": "#babdb3"
+    },
+    "92": {
+      "name": "Black Hole Base",
+      "kind": "base",
+      "owner": 5,
+      "sprite": "map/AW1/BlackHole/Base-0",
+      "color": "#babdb3"
+    },
+    "91": {
+      "name": "Black Hole City",
+      "kind": "city",
+      "owner": 5,
+      "sprite": "map/AW1/BlackHole/City-0",
+      "color": "#babdb3"
+    },
+    "95": {
+      "name": "Black Hole HQ",
+      "kind": "hq",
+      "owner": 5,
+      "sprite": "map/AW1/BlackHole/HQ-0",
+      "color": "#babdb3"
+    },
+    "94": {
+      "name": "Black Hole Port",
+      "kind": "port",
+      "owner": 5,
+      "sprite": "map/AW1/BlackHole/Port-0",
+      "color": "#babdb3"
+    },
+    "128": {
+      "name": "Black Hole Com Tower",
+      "kind": "com_tower",
+      "owner": 5,
+      "sprite": "map/AW1/BlackHole/ComTower-0",
+      "color": "#babdb3"
+    },
+    "139": {
+      "name": "Black Hole Lab",
+      "kind": "lab",
+      "owner": 5,
+      "sprite": "map/AW1/BlackHole/Lab-0",
+      "color": "#babdb3"
+    },
+    "98": {
+      "name": "Brown Desert Airport",
+      "kind": "airport",
+      "owner": 8,
+      "sprite": "map/AW1/BrownDesert/Airport-0",
+      "color": "#babdb3"
+    },
+    "97": {
+      "name": "Brown Desert Base",
+      "kind": "base",
+      "owner": 8,
+      "sprite": "map/AW1/BrownDesert/Base-0",
+      "color": "#babdb3"
+    },
+    "96": {
+      "name": "Brown Desert City",
+      "kind": "city",
+      "owner": 8,
+      "sprite": "map/AW1/BrownDesert/City-0",
+      "color": "#babdb3"
+    },
+    "100": {
+      "name": "Brown Desert HQ",
+      "kind": "hq",
+      "owner": 8,
+      "sprite": "map/AW1/BrownDesert/HQ-0",
+      "color": "#babdb3"
+    },
+    "99": {
+      "name": "Brown Desert Port",
+      "kind": "port",
+      "owner": 8,
+      "sprite": "map/AW1/BrownDesert/Port-0",
+      "color": "#babdb3"
+    },
+    "130": {
+      "name": "Brown Desert Com Tower",
+      "kind": "com_tower",
+      "owner": 8,
+      "sprite": "map/AW1/BrownDesert/ComTower-0",
+      "color": "#babdb3"
+    },
+    "141": {
+      "name": "Brown Desert Lab",
+      "kind": "lab",
+      "owner": 8,
+      "sprite": "map/AW1/BrownDesert/Lab-0",
+      "color": "#babdb3"
+    },
+    "117": {
+      "name": "Amber Blossom Airport",
+      "kind": "airport",
+      "owner": 9,
+      "sprite": "map/AW1/AmberBlossom/Airport-0",
+      "color": "#babdb3"
+    },
+    "118": {
+      "name": "Amber Blossom Base",
+      "kind": "base",
+      "owner": 9,
+      "sprite": "map/AW1/AmberBlossom/Base-0",
+      "color": "#babdb3"
+    },
+    "119": {
+      "name": "Amber Blossom City",
+      "kind": "city",
+      "owner": 9,
+      "sprite": "map/AW1/AmberBlossom/City-0",
+      "color": "#babdb3"
+    },
+    "120": {
+      "name": "Amber Blossom HQ",
+      "kind": "hq",
+      "owner": 9,
+      "sprite": "map/AW1/AmberBlossom/HQ-0",
+      "color": "#babdb3"
+    },
+    "121": {
+      "name": "Amber Blossom Port",
+      "kind": "port",
+      "owner": 9,
+      "sprite": "map/AW1/AmberBlossom/Port-0",
+      "color": "#babdb3"
+    },
+    "127": {
+      "name": "Amber Blossom Com Tower",
+      "kind": "com_tower",
+      "owner": 9,
+      "sprite": "map/AW1/AmberBlossom/ComTower-0",
+      "color": "#babdb3"
+    },
+    "138": {
+      "name": "Amber Blossom Lab",
+      "kind": "lab",
+      "owner": 9,
+      "sprite": "map/AW1/AmberBlossom/Lab-0",
+      "color": "#babdb3"
+    },
+    "122": {
+      "name": "Jade Sun Airport",
+      "kind": "airport",
+      "owner": 10,
+      "sprite": "map/AW1/JadeSun/Airport-0",
+      "color": "#babdb3"
+    },
+    "123": {
+      "name": "Jade Sun Base",
+      "kind": "base",
+      "owner": 10,
+      "sprite": "map/AW1/JadeSun/Base-0",
+      "color": "#babdb3"
+    },
+    "124": {
+      "name": "Jade Sun City",
+      "kind": "city",
+      "owner": 10,
+      "sprite": "map/AW1/JadeSun/City-0",
+      "color": "#babdb3"
+    },
+    "125": {
+      "name": "Jade Sun HQ",
+      "kind": "hq",
+      "owner": 10,
+      "sprite": "map/AW1/JadeSun/HQ-0",
+      "color": "#babdb3"
+    },
+    "126": {
+      "name": "Jade Sun Port",
+      "kind": "port",
+      "owner": 10,
+      "sprite": "map/AW1/JadeSun/Port-0",
+      "color": "#babdb3"
+    },
+    "132": {
+      "name": "Jade Sun Com Tower",
+      "kind": "com_tower",
+      "owner": 10,
+      "sprite": "map/AW1/JadeSun/ComTower-0",
+      "color": "#babdb3"
+    },
+    "144": {
+      "name": "Jade Sun Lab",
+      "kind": "lab",
+      "owner": 10,
+      "sprite": "map/AW1/JadeSun/Lab-0",
+      "color": "#babdb3"
+    },
+    "149": {
+      "name": "Cobalt Ice Airport",
+      "kind": "airport",
+      "owner": 11,
+      "sprite": "map/AW1/CobaltIce/Airport-0",
+      "color": "#babdb3"
+    },
+    "150": {
+      "name": "Cobalt Ice Base",
+      "kind": "base",
+      "owner": 11,
+      "sprite": "map/AW1/CobaltIce/Base-0",
+      "color": "#babdb3"
+    },
+    "151": {
+      "name": "Cobalt Ice City",
+      "kind": "city",
+      "owner": 11,
+      "sprite": "map/AW1/CobaltIce/City-0",
+      "color": "#babdb3"
+    },
+    "153": {
+      "name": "Cobalt Ice HQ",
+      "kind": "hq",
+      "owner": 11,
+      "sprite": "map/AW1/CobaltIce/HQ-0",
+      "color": "#babdb3"
+    },
+    "155": {
+      "name": "Cobalt Ice Port",
+      "kind": "port",
+      "owner": 11,
+      "sprite": "map/AW1/CobaltIce/Port-0",
+      "color": "#babdb3"
+    },
+    "152": {
+      "name": "Cobalt Ice Com Tower",
+      "kind": "com_tower",
+      "owner": 11,
+      "sprite": "map/AW1/CobaltIce/ComTower-0",
+      "color": "#babdb3"
+    },
+    "154": {
+      "name": "Cobalt Ice Lab",
+      "kind": "lab",
+      "owner": 11,
+      "sprite": "map/AW1/CobaltIce/Lab-0",
+      "color": "#babdb3"
+    },
+    "156": {
+      "name": "Pink Cosmos Airport",
+      "kind": "airport",
+      "owner": 12,
+      "sprite": "map/AW1/PinkCosmos/Airport-0",
+      "color": "#babdb3"
+    },
+    "157": {
+      "name": "Pink Cosmos Base",
+      "kind": "base",
+      "owner": 12,
+      "sprite": "map/AW1/PinkCosmos/Base-0",
+      "color": "#babdb3"
+    },
+    "158": {
+      "name": "Pink Cosmos City",
+      "kind": "city",
+      "owner": 12,
+      "sprite": "map/AW1/PinkCosmos/City-0",
+      "color": "#babdb3"
+    },
+    "160": {
+      "name": "Pink Cosmos HQ",
+      "kind": "hq",
+      "owner": 12,
+      "sprite": "map/AW1/PinkCosmos/HQ-0",
+      "color": "#babdb3"
+    },
+    "162": {
+      "name": "Pink Cosmos Port",
+      "kind": "port",
+      "owner": 12,
+      "sprite": "map/AW1/PinkCosmos/Port-0",
+      "color": "#babdb3"
+    },
+    "159": {
+      "name": "Pink Cosmos Com Tower",
+      "kind": "com_tower",
+      "owner": 12,
+      "sprite": "map/AW1/PinkCosmos/ComTower-0",
+      "color": "#babdb3"
+    },
+    "161": {
+      "name": "Pink Cosmos Lab",
+      "kind": "lab",
+      "owner": 12,
+      "sprite": "map/AW1/PinkCosmos/Lab-0",
+      "color": "#babdb3"
+    },
+    "163": {
+      "name": "Teal Galaxy Airport",
+      "kind": "airport",
+      "owner": 13,
+      "sprite": "map/AW1/TealGalaxy/Airport-0",
+      "color": "#babdb3"
+    },
+    "164": {
+      "name": "Teal Galaxy Base",
+      "kind": "base",
+      "owner": 13,
+      "sprite": "map/AW1/TealGalaxy/Base-0",
+      "color": "#babdb3"
+    },
+    "165": {
+      "name": "Teal Galaxy City",
+      "kind": "city",
+      "owner": 13,
+      "sprite": "map/AW1/TealGalaxy/City-0",
+      "color": "#babdb3"
+    },
+    "167": {
+      "name": "Teal Galaxy HQ",
+      "kind": "hq",
+      "owner": 13,
+      "sprite": "map/AW1/TealGalaxy/HQ-0",
+      "color": "#babdb3"
+    },
+    "169": {
+      "name": "Teal Galaxy Port",
+      "kind": "port",
+      "owner": 13,
+      "sprite": "map/AW1/TealGalaxy/Port-0",
+      "color": "#babdb3"
+    },
+    "166": {
+      "name": "Teal Galaxy Com Tower",
+      "kind": "com_tower",
+      "owner": 13,
+      "sprite": "map/AW1/TealGalaxy/ComTower-0",
+      "color": "#babdb3"
+    },
+    "168": {
+      "name": "Teal Galaxy Lab",
+      "kind": "lab",
+      "owner": 13,
+      "sprite": "map/AW1/TealGalaxy/Lab-0",
+      "color": "#babdb3"
+    },
+    "170": {
+      "name": "Purple Lightning Airport",
+      "kind": "airport",
+      "owner": 14,
+      "sprite": "map/AW1/PurpleLightning/Airport-0",
+      "color": "#babdb3"
+    },
+    "171": {
+      "name": "Purple Lightning Base",
+      "kind": "base",
+      "owner": 14,
+      "sprite": "map/AW1/PurpleLightning/Base-0",
+      "color": "#babdb3"
+    },
+    "172": {
+      "name": "Purple Lightning City",
+      "kind": "city",
+      "owner": 14,
+      "sprite": "map/AW1/PurpleLightning/City-0",
+      "color": "#babdb3"
+    },
+    "174": {
+      "name": "Purple Lightning HQ",
+      "kind": "hq",
+      "owner": 14,
+      "sprite": "map/AW1/PurpleLightning/HQ-0",
+      "color": "#babdb3"
+    },
+    "176": {
+      "name": "Purple Lightning Port",
+      "kind": "port",
+      "owner": 14,
+      "sprite": "map/AW1/PurpleLightning/Port-0",
+      "color": "#babdb3"
+    },
+    "173": {
+      "name": "Purple Lightning Com Tower",
+      "kind": "com_tower",
+      "owner": 14,
+      "sprite": "map/AW1/PurpleLightning/ComTower-0",
+      "color": "#babdb3"
+    },
+    "175": {
+      "name": "Purple Lightning Lab",
+      "kind": "lab",
+      "owner": 14,
+      "sprite": "map/AW1/PurpleLightning/Lab-0",
+      "color": "#babdb3"
+    },
+    "181": {
+      "name": "Acid Rain Airport",
+      "kind": "airport",
+      "owner": 15,
+      "sprite": "map/AW1/AcidRain/Airport-0",
+      "color": "#babdb3"
+    },
+    "182": {
+      "name": "Acid Rain Base",
+      "kind": "base",
+      "owner": 15,
+      "sprite": "map/AW1/AcidRain/Base-0",
+      "color": "#babdb3"
+    },
+    "183": {
+      "name": "Acid Rain City",
+      "kind": "city",
+      "owner": 15,
+      "sprite": "map/AW1/AcidRain/City-0",
+      "color": "#babdb3"
+    },
+    "185": {
+      "name": "Acid Rain HQ",
+      "kind": "hq",
+      "owner": 15,
+      "sprite": "map/AW1/AcidRain/HQ-0",
+      "color": "#babdb3"
+    },
+    "187": {
+      "name": "Acid Rain Port",
+      "kind": "port",
+      "owner": 15,
+      "sprite": "map/AW1/AcidRain/Port-0",
+      "color": "#babdb3"
+    },
+    "184": {
+      "name": "Acid Rain Com Tower",
+      "kind": "com_tower",
+      "owner": 15,
+      "sprite": "map/AW1/AcidRain/ComTower-0",
+      "color": "#babdb3"
+    },
+    "186": {
+      "name": "Acid Rain Lab",
+      "kind": "lab",
+      "owner": 15,
+      "sprite": "map/AW1/AcidRain/Lab-0",
+      "color": "#babdb3"
+    },
+    "188": {
+      "name": "White Nova Airport",
+      "kind": "airport",
+      "owner": 16,
+      "sprite": "map/AW1/WhiteNova/Airport-0",
+      "color": "#babdb3"
+    },
+    "189": {
+      "name": "White Nova Base",
+      "kind": "base",
+      "owner": 16,
+      "sprite": "map/AW1/WhiteNova/Base-0",
+      "color": "#babdb3"
+    },
+    "190": {
+      "name": "White Nova City",
+      "kind": "city",
+      "owner": 16,
+      "sprite": "map/AW1/WhiteNova/City-0",
+      "color": "#babdb3"
+    },
+    "192": {
+      "name": "White Nova HQ",
+      "kind": "hq",
+      "owner": 16,
+      "sprite": "map/AW1/WhiteNova/HQ-0",
+      "color": "#babdb3"
+    },
+    "194": {
+      "name": "White Nova Port",
+      "kind": "port",
+      "owner": 16,
+      "sprite": "map/AW1/WhiteNova/Port-0",
+      "color": "#babdb3"
+    },
+    "191": {
+      "name": "White Nova Com Tower",
+      "kind": "com_tower",
+      "owner": 16,
+      "sprite": "map/AW1/WhiteNova/ComTower-0",
+      "color": "#babdb3"
+    },
+    "193": {
+      "name": "White Nova Lab",
+      "kind": "lab",
+      "owner": 16,
+      "sprite": "map/AW1/WhiteNova/Lab-0",
+      "color": "#babdb3"
+    },
+    "196": {
+      "name": "Azure Asteroid Airport",
+      "kind": "airport",
+      "owner": 17,
+      "sprite": "map/AW1/AzureAsteroid/Airport-0",
+      "color": "#babdb3"
+    },
+    "197": {
+      "name": "Azure Asteroid Base",
+      "kind": "base",
+      "owner": 17,
+      "sprite": "map/AW1/AzureAsteroid/Base-0",
+      "color": "#babdb3"
+    },
+    "198": {
+      "name": "Azure Asteroid City",
+      "kind": "city",
+      "owner": 17,
+      "sprite": "map/AW1/AzureAsteroid/City-0",
+      "color": "#babdb3"
+    },
+    "200": {
+      "name": "Azure Asteroid HQ",
+      "kind": "hq",
+      "owner": 17,
+      "sprite": "map/AW1/AzureAsteroid/HQ-0",
+      "color": "#babdb3"
+    },
+    "202": {
+      "name": "Azure Asteroid Port",
+      "kind": "port",
+      "owner": 17,
+      "sprite": "map/AW1/AzureAsteroid/Port-0",
+      "color": "#babdb3"
+    },
+    "199": {
+      "name": "Azure Asteroid Com Tower",
+      "kind": "com_tower",
+      "owner": 17,
+      "sprite": "map/AW1/AzureAsteroid/ComTower-0",
+      "color": "#babdb3"
+    },
+    "201": {
+      "name": "Azure Asteroid Lab",
+      "kind": "lab",
+      "owner": 17,
+      "sprite": "map/AW1/AzureAsteroid/Lab-0",
+      "color": "#babdb3"
+    },
+    "203": {
+      "name": "Noir Eclipse Airport",
+      "kind": "airport",
+      "owner": 18,
+      "sprite": "map/AW1/NoirEclipse/Airport-0",
+      "color": "#babdb3"
+    },
+    "204": {
+      "name": "Noir Eclipse Base",
+      "kind": "base",
+      "owner": 18,
+      "sprite": "map/AW1/NoirEclipse/Base-0",
+      "color": "#babdb3"
+    },
+    "205": {
+      "name": "Noir Eclipse City",
+      "kind": "city",
+      "owner": 18,
+      "sprite": "map/AW1/NoirEclipse/City-0",
+      "color": "#babdb3"
+    },
+    "207": {
+      "name": "Noir Eclipse HQ",
+      "kind": "hq",
+      "owner": 18,
+      "sprite": "map/AW1/NoirEclipse/HQ-0",
+      "color": "#babdb3"
+    },
+    "209": {
+      "name": "Noir Eclipse Port",
+      "kind": "port",
+      "owner": 18,
+      "sprite": "map/AW1/NoirEclipse/Port-0",
+      "color": "#babdb3"
+    },
+    "206": {
+      "name": "Noir Eclipse Com Tower",
+      "kind": "com_tower",
+      "owner": 18,
+      "sprite": "map/AW1/NoirEclipse/ComTower-0",
+      "color": "#babdb3"
+    },
+    "208": {
+      "name": "Noir Eclipse Lab",
+      "kind": "lab",
+      "owner": 18,
+      "sprite": "map/AW1/NoirEclipse/Lab-0",
+      "color": "#babdb3"
+    },
+    "210": {
+      "name": "Silver Claw Airport",
+      "kind": "airport",
+      "owner": 19,
+      "sprite": "map/AW1/SilverClaw/Airport-0",
+      "color": "#babdb3"
+    },
+    "211": {
+      "name": "Silver Claw Base",
+      "kind": "base",
+      "owner": 19,
+      "sprite": "map/AW1/SilverClaw/Base-0",
+      "color": "#babdb3"
+    },
+    "212": {
+      "name": "Silver Claw City",
+      "kind": "city",
+      "owner": 19,
+      "sprite": "map/AW1/SilverClaw/City-0",
+      "color": "#babdb3"
+    },
+    "214": {
+      "name": "Silver Claw HQ",
+      "kind": "hq",
+      "owner": 19,
+      "sprite": "map/AW1/SilverClaw/HQ-0",
+      "color": "#babdb3"
+    },
+    "216": {
+      "name": "Silver Claw Port",
+      "kind": "port",
+      "owner": 19,
+      "sprite": "map/AW1/SilverClaw/Port-0",
+      "color": "#babdb3"
+    },
+    "213": {
+      "name": "Silver Claw Com Tower",
+      "kind": "com_tower",
+      "owner": 19,
+      "sprite": "map/AW1/SilverClaw/ComTower-0",
+      "color": "#babdb3"
+    },
+    "215": {
+      "name": "Silver Claw Lab",
+      "kind": "lab",
+      "owner": 19,
+      "sprite": "map/AW1/SilverClaw/Lab-0",
+      "color": "#babdb3"
+    },
+    "217": {
+      "name": "Umber Wilds Airport",
+      "kind": "airport",
+      "owner": 20,
+      "sprite": "map/AW1/UmberWilds/Airport-0",
+      "color": "#babdb3"
+    },
+    "218": {
+      "name": "Umber Wilds Base",
+      "kind": "base",
+      "owner": 20,
+      "sprite": "map/AW1/UmberWilds/Base-0",
+      "color": "#babdb3"
+    },
+    "219": {
+      "name": "Umber Wilds City",
+      "kind": "city",
+      "owner": 20,
+      "sprite": "map/AW1/UmberWilds/City-0",
+      "color": "#babdb3"
+    },
+    "221": {
+      "name": "Umber Wilds HQ",
+      "kind": "hq",
+      "owner": 20,
+      "sprite": "map/AW1/UmberWilds/HQ-0",
+      "color": "#babdb3"
+    },
+    "223": {
+      "name": "Umber Wilds Port",
+      "kind": "port",
+      "owner": 20,
+      "sprite": "map/AW1/UmberWilds/Port-0",
+      "color": "#babdb3"
+    },
+    "220": {
+      "name": "Umber Wilds Com Tower",
+      "kind": "com_tower",
+      "owner": 20,
+      "sprite": "map/AW1/UmberWilds/ComTower-0",
+      "color": "#babdb3"
+    },
+    "222": {
+      "name": "Umber Wilds Lab",
+      "kind": "lab",
+      "owner": 20,
+      "sprite": "map/AW1/UmberWilds/Lab-0",
+      "color": "#babdb3"
+    },
+    "113": {
+      "name": "HPipe Seam",
+      "kind": "pipe_seam",
+      "owner": null,
+      "sprite": "map/AW1/Neutral/HSeam-0",
+      "color": "#778477"
+    },
+    "114": {
+      "name": "VPipe Seam",
+      "kind": "pipe_seam",
+      "owner": null,
+      "sprite": "map/AW1/Neutral/VSeam-0",
+      "color": "#778477"
+    }
+  },
+  "units": {
+    "28": {
+      "type": "black_boat",
+      "name": "Black Boat",
+      "sprites": {
+        "1": "units/OrangeStar/BlackBoat-0",
+        "2": "units/BlueMoon/BlackBoat-0",
+        "3": "units/GreenEarth/BlackBoat-0",
+        "4": "units/YellowComet/BlackBoat-0",
+        "5": "units/BlackHole/BlackBoat-0"
+      }
+    },
+    "960900": {
+      "type": "piperunner",
+      "name": "Piperunner",
+      "sprites": {
+        "1": "units/OrangeStar/PipeRunner-0",
+        "2": "units/BlueMoon/PipeRunner-0",
+        "3": "units/GreenEarth/PipeRunner-0",
+        "4": "units/YellowComet/PipeRunner-0",
+        "5": "units/BlackHole/PipeRunner-0"
+      }
+    },
+    "968731": {
+      "type": "black_bomb",
+      "name": "Black Bomb",
+      "sprites": {
+        "1": "units/OrangeStar/BlackBomb-0",
+        "2": "units/BlueMoon/BlackBomb-0",
+        "3": "units/GreenEarth/BlackBomb-0",
+        "4": "units/YellowComet/BlackBomb-0",
+        "5": "units/BlackHole/BlackBomb-0"
+      }
+    },
+    "1": {
+      "type": "infantry",
+      "name": "Infantry",
+      "sprites": {
+        "1": "units/OrangeStar/Infantry-0",
+        "2": "units/BlueMoon/Infantry-0",
+        "3": "units/GreenEarth/Infantry-0",
+        "4": "units/YellowComet/Infantry-0",
+        "5": "units/BlackHole/Infantry-0"
+      }
+    },
+    "2": {
+      "type": "mech",
+      "name": "Mech",
+      "sprites": {
+        "1": "units/OrangeStar/Mech-0",
+        "2": "units/BlueMoon/Mech-0",
+        "3": "units/GreenEarth/Mech-0",
+        "4": "units/YellowComet/Mech-0",
+        "5": "units/BlackHole/Mech-0"
+      }
+    },
+    "3": {
+      "type": "medium_tank",
+      "name": "Md.Tank",
+      "sprites": {
+        "1": "units/OrangeStar/MdTank-0",
+        "2": "units/BlueMoon/MdTank-0",
+        "3": "units/GreenEarth/MdTank-0",
+        "4": "units/YellowComet/MdTank-0",
+        "5": "units/BlackHole/MdTank-0"
+      }
+    },
+    "4": {
+      "type": "tank",
+      "name": "Tank",
+      "sprites": {
+        "1": "units/OrangeStar/Tank-0",
+        "2": "units/BlueMoon/Tank-0",
+        "3": "units/GreenEarth/Tank-0",
+        "4": "units/YellowComet/Tank-0",
+        "5": "units/BlackHole/Tank-0"
+      }
+    },
+    "5": {
+      "type": "recon",
+      "name": "Recon",
+      "sprites": {
+        "1": "units/OrangeStar/Recon-0",
+        "2": "units/BlueMoon/Recon-0",
+        "3": "units/GreenEarth/Recon-0",
+        "4": "units/YellowComet/Recon-0",
+        "5": "units/BlackHole/Recon-0"
+      }
+    },
+    "6": {
+      "type": "apc",
+      "name": "APC",
+      "sprites": {
+        "1": "units/OrangeStar/APC-0",
+        "2": "units/BlueMoon/APC-0",
+        "3": "units/GreenEarth/APC-0",
+        "4": "units/YellowComet/APC-0",
+        "5": "units/BlackHole/APC-0"
+      }
+    },
+    "7": {
+      "type": "artillery",
+      "name": "Artillery",
+      "sprites": {
+        "1": "units/OrangeStar/Artillery-0",
+        "2": "units/BlueMoon/Artillery-0",
+        "3": "units/GreenEarth/Artillery-0",
+        "4": "units/YellowComet/Artillery-0",
+        "5": "units/BlackHole/Artillery-0"
+      }
+    },
+    "8": {
+      "type": "rockets",
+      "name": "Rocket",
+      "sprites": {
+        "1": "units/OrangeStar/Rocket-0",
+        "2": "units/BlueMoon/Rocket-0",
+        "3": "units/GreenEarth/Rocket-0",
+        "4": "units/YellowComet/Rocket-0",
+        "5": "units/BlackHole/Rocket-0"
+      }
+    },
+    "9": {
+      "type": "anti_air",
+      "name": "Anti-Air",
+      "sprites": {
+        "1": "units/OrangeStar/Anti-Air-0",
+        "2": "units/BlueMoon/Anti-Air-0",
+        "3": "units/GreenEarth/Anti-Air-0",
+        "4": "units/YellowComet/Anti-Air-0",
+        "5": "units/BlackHole/Anti-Air-0"
+      }
+    },
+    "10": {
+      "type": "missiles",
+      "name": "Missile",
+      "sprites": {
+        "1": "units/OrangeStar/Missile-0",
+        "2": "units/BlueMoon/Missile-0",
+        "3": "units/GreenEarth/Missile-0",
+        "4": "units/YellowComet/Missile-0",
+        "5": "units/BlackHole/Missile-0"
+      }
+    },
+    "11": {
+      "type": "fighter",
+      "name": "Fighter",
+      "sprites": {
+        "1": "units/OrangeStar/Fighter-0",
+        "2": "units/BlueMoon/Fighter-0",
+        "3": "units/GreenEarth/Fighter-0",
+        "4": "units/YellowComet/Fighter-0",
+        "5": "units/BlackHole/Fighter-0"
+      }
+    },
+    "12": {
+      "type": "bomber",
+      "name": "Bomber",
+      "sprites": {
+        "1": "units/OrangeStar/Bomber-0",
+        "2": "units/BlueMoon/Bomber-0",
+        "3": "units/GreenEarth/Bomber-0",
+        "4": "units/YellowComet/Bomber-0",
+        "5": "units/BlackHole/Bomber-0"
+      }
+    },
+    "13": {
+      "type": "battle_copter",
+      "name": "B-Copter",
+      "sprites": {
+        "1": "units/OrangeStar/B-Copter-0",
+        "2": "units/BlueMoon/B-Copter-0",
+        "3": "units/GreenEarth/B-Copter-0",
+        "4": "units/YellowComet/B-Copter-0",
+        "5": "units/BlackHole/B-Copter-0"
+      }
+    },
+    "14": {
+      "type": "transport_copter",
+      "name": "T-Copter",
+      "sprites": {
+        "1": "units/OrangeStar/T-Copter-0",
+        "2": "units/BlueMoon/T-Copter-0",
+        "3": "units/GreenEarth/T-Copter-0",
+        "4": "units/YellowComet/T-Copter-0",
+        "5": "units/BlackHole/T-Copter-0"
+      }
+    },
+    "15": {
+      "type": "battleship",
+      "name": "Battleship",
+      "sprites": {
+        "1": "units/OrangeStar/Battleship-0",
+        "2": "units/BlueMoon/Battleship-0",
+        "3": "units/GreenEarth/Battleship-0",
+        "4": "units/YellowComet/Battleship-0",
+        "5": "units/BlackHole/Battleship-0"
+      }
+    },
+    "16": {
+      "type": "cruiser",
+      "name": "Cruiser",
+      "sprites": {
+        "1": "units/OrangeStar/Cruiser-0",
+        "2": "units/BlueMoon/Cruiser-0",
+        "3": "units/GreenEarth/Cruiser-0",
+        "4": "units/YellowComet/Cruiser-0",
+        "5": "units/BlackHole/Cruiser-0"
+      }
+    },
+    "17": {
+      "type": "lander",
+      "name": "Lander",
+      "sprites": {
+        "1": "units/OrangeStar/Lander-0",
+        "2": "units/BlueMoon/Lander-0",
+        "3": "units/GreenEarth/Lander-0",
+        "4": "units/YellowComet/Lander-0",
+        "5": "units/BlackHole/Lander-0"
+      }
+    },
+    "18": {
+      "type": "sub",
+      "name": "Sub",
+      "sprites": {
+        "1": "units/OrangeStar/Sub-0",
+        "2": "units/BlueMoon/Sub-0",
+        "3": "units/GreenEarth/Sub-0",
+        "4": "units/YellowComet/Sub-0",
+        "5": "units/BlackHole/Sub-0"
+      }
+    },
+    "46": {
+      "type": "neotank",
+      "name": "Neotank",
+      "sprites": {
+        "1": "units/OrangeStar/NeoTank-0",
+        "2": "units/BlueMoon/NeoTank-0",
+        "3": "units/GreenEarth/NeoTank-0",
+        "4": "units/YellowComet/NeoTank-0",
+        "5": "units/BlackHole/NeoTank-0"
+      }
+    },
+    "1141438": {
+      "type": "mega_tank",
+      "name": "Mega Tank",
+      "sprites": {
+        "1": "units/OrangeStar/MegaTank-0",
+        "2": "units/BlueMoon/MegaTank-0",
+        "3": "units/GreenEarth/MegaTank-0",
+        "4": "units/YellowComet/MegaTank-0",
+        "5": "units/BlackHole/MegaTank-0"
+      }
+    },
+    "29": {
+      "type": "carrier",
+      "name": "Carrier",
+      "sprites": {
+        "1": "units/OrangeStar/Carrier-0",
+        "2": "units/BlueMoon/Carrier-0",
+        "3": "units/GreenEarth/Carrier-0",
+        "4": "units/YellowComet/Carrier-0",
+        "5": "units/BlackHole/Carrier-0"
+      }
+    },
+    "30": {
+      "type": "stealth",
+      "name": "Stealth",
+      "sprites": {
+        "1": "units/OrangeStar/Stealth-0",
+        "2": "units/BlueMoon/Stealth-0",
+        "3": "units/GreenEarth/Stealth-0",
+        "4": "units/YellowComet/Stealth-0",
+        "5": "units/BlackHole/Stealth-0"
+      }
+    }
+  },
+  "country_codes": {
+    "os": 1,
+    "bm": 2,
+    "ge": 3,
+    "yc": 4,
+    "bh": 5,
+    "rf": 6,
+    "gs": 7,
+    "bd": 8,
+    "ab": 9,
+    "js": 10,
+    "ci": 11,
+    "pc": 12,
+    "tg": 13,
+    "pl": 14,
+    "ar": 15,
+    "wn": 16,
+    "aa": 17,
+    "ne": 18,
+    "sc": 19,
+    "uw": 20
+  },
+  "country_names": {
+    "1": "OrangeStar",
+    "2": "BlueMoon",
+    "3": "GreenEarth",
+    "4": "YellowComet",
+    "6": "RedFire",
+    "7": "GreySky",
+    "5": "BlackHole",
+    "8": "BrownDesert",
+    "9": "AmberBlossom",
+    "10": "JadeSun",
+    "11": "CobaltIce",
+    "12": "PinkCosmos",
+    "13": "TealGalaxy",
+    "14": "PurpleLightning",
+    "15": "AcidRain",
+    "16": "WhiteNova",
+    "17": "AzureAsteroid",
+    "18": "NoirEclipse",
+    "19": "SilverClaw",
+    "20": "UmberWilds"
+  }
+}

@@ -1,0 +1,15 @@
+* text=auto
+.gitattributes text eol=lf
+.gitignore text eol=lf
+LICENSE text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.bat text eol=crlf
+*.png binary
+*.ttf binary
+*.pt binary

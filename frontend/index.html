@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AWBW Map Generator</title>
+  <link rel="icon" type="image/png" href="/assets/favicon.png">
+  <link rel="preload" href="/assets/fonts/PixelifySans.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/editor.css">
+  <script type="module" src="/js/app.js"></script>
+</head>
+<body>
+  <main>
+    <form id="generation-form">
+      <div class="form-heading"><strong>Map settings</strong><button id="clear-settings" type="button">Reset</button></div>
+      <div class="format-fields">
+        <label>Width<input id="width" type="number" min="1" max="50" placeholder="Any"></label>
+        <label>Height<input id="height" type="number" min="1" max="50" placeholder="Any"></label>
+        <label>Players<input id="players" type="number" min="1" max="20" placeholder="Any" value="2"></label>
+      </div>
+      <div class="choice-heading"><span></span><span>Any</span><span>Yes</span><span>No</span></div>
+      <div id="tags"></div>
+      <fieldset class="symmetry"><legend>Symmetry</legend><div id="symmetry"></div></fieldset>
+      <details>
+        <summary>Buildings</summary>
+        <p class="hint">Blank = any. 0 = none. Unreachable neutral buildings excluded.</p>
+        <table><thead><tr><th>Type</th><th>Total</th><th>Owned</th><th>Neutral</th></tr></thead><tbody id="buildings"></tbody></table>
+      </details>
+      <details><summary>Predeployed units</summary><div id="units" class="unit-counts"></div></details>
+      <details id="categories-section" hidden><summary>Categories</summary><p class="hint">Structural categories are checked; editorial labels require review.</p><div class="choice-heading"><span></span><span>Any</span><span>Yes</span><span>No</span></div><div id="categories"></div></details>
+      <details id="generation-settings">
+        <summary>Generation</summary>
+        <fieldset class="model-choice"><legend>Model</legend><div id="model-options">
+          <label><input type="radio" name="checkpoint" value="ppo-48000.pt" aria-label="Model: learned joint PPO 48000 updates" checked hidden><span class="model-label"><span data-model-name>PPO 48000</span><time data-model-date></time></span></label>
+        </div><small id="model-capabilities" hidden></small><small id="generator-version" hidden></small></fieldset>
+        <div class="generation-fields">
+          <label>Temperature<input id="temperature" type="number" min="0.05" max="3" step="0.05" value="1"></label>
+          <label>Guidance<input id="guidance_scale" type="number" min="1" max="5" step="0.25" value="1" title="How strongly the diffusion follows the requested settings. 1 uses the conditional model directly."></label>
+          <div class="seed-field"><label for="seed">Seed <span id="seed-mode-label">Random</span></label><div class="seed-controls"><input id="seed" type="number" min="0" max="4294967295" placeholder="Random" readonly><button id="seed-mode" type="button" aria-pressed="false" aria-label="Seed mode: Random. Switch to fixed." title="Random: a new seed for each generation. Click to keep the displayed seed fixed."><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="2"/><path stroke-linecap="round" stroke-width="3" d="M8 8h0M16 8h0M12 12h0M8 16h0M16 16h0"/></svg></button></div></div>
+          <label>Refinement steps<input id="refinement_steps" type="number" min="1" max="64" value="16"></label>
+          <label>Max attempts<input id="attempts" type="number" min="1" max="16" value="4"></label>
+          <label class="generation-checkbox"><input id="auto-correct" type="checkbox" checked> Auto-correction</label>
+        </div>
+      </details>
+      <div class="generate-actions">
+        <p id="form-error" role="alert" hidden></p>
+        <button id="generate" type="submit" disabled>Loading...</button>
+        <output id="generation-seed" class="hint" aria-live="polite" hidden></output>
+        <progress id="job-progress" max="100" value="0" aria-label="Generation progress" hidden></progress>
+      </div>
+      <div class="map-import">
+        <label for="import-map-id">Import settings from map</label>
+        <div class="map-import-fields">
+          <input id="import-map-id" type="text" inputmode="numeric" placeholder="Map ID" aria-label="Map ID" autocomplete="off">
+          <button id="import-map" type="button" disabled>Import</button>
+          <button id="load-editor-map" type="button">Load map</button>
+        </div>
+        <p id="import-status" class="hint" role="status" hidden></p>
+        <p id="import-notes" class="hint" hidden></p>
+      </div>
+    </form>
+    <section class="preview" aria-label="Map">
+      <div class="toolbar">
+        <div class="map-heading"><h1>Battle Maps</h1><span id="map-dimensions"></span></div>
+        <div class="view-actions">
+          <label><input id="grid" type="checkbox"> Grid</label>
+          <button id="fit" type="button">Fit</button>
+          <button id="download-awbw" type="button" title="Export terrain and buildings for AWBW Upload Map (.txt); units are not included" disabled>AWBW (.txt)</button>
+          <button id="download-json" type="button" disabled>JSON</button>
+          <button id="download-png" type="button" disabled>PNG</button>
+        </div>
+      </div>
+      <div id="map-viewport">
+        <div id="canvas-frame"><canvas id="map-canvas" width="1" height="1" aria-label="Map AWBW"></canvas></div>
+        <span id="empty-preview">No map</span>
+      </div>
+      <div class="result-line"><span id="conformity-status" role="status"></span><span id="hover-info"></span><span id="render-note"></span></div>
+      <div id="conformity-issues"></div>
+    </section>
+  </main>
+</body>
+</html>
