@@ -10,6 +10,31 @@ The included **PPO 48000** model runs on your PC. **Your settings, maps and lock
 
 **Generation and inpainting work offline after installation.** Internet is used for setup downloads and public AWBW map lookups through **Import / Load map**. Saving and exporting are local. The tool does not upload your drafts to AWBW; you choose what to share.
 
+## Output examples
+
+<table>
+<tr>
+<td width="33%"><img src="docs/output-examples/awbw-2368027084.png" alt="AI-generated map example 1" width="100%"></td>
+<td width="33%"><img src="docs/output-examples/awbw-1954601625.png" alt="AI-generated map example 2" width="100%"></td>
+<td width="33%"><img src="docs/output-examples/awbw-1620791838.png" alt="AI-generated map example 3" width="100%"></td>
+</tr>
+<tr>
+<td width="33%"><img src="docs/output-examples/awbw-3893139532.png" alt="AI-generated map example 4" width="100%"></td>
+<td width="33%"><img src="docs/output-examples/awbw-2003019075.png" alt="AI-generated map example 5" width="100%"></td>
+<td width="33%"><img src="docs/output-examples/awbw-713193144.png" alt="AI-generated map example 6" width="100%"></td>
+</tr>
+<tr>
+<td width="33%"><img src="docs/output-examples/awbw-150166506.png" alt="AI-generated map example 7" width="100%"></td>
+<td width="33%"><img src="docs/output-examples/awbw-2369362234.png" alt="AI-generated map example 8" width="100%"></td>
+<td width="33%"><img src="docs/output-examples/awbw-1044584968.png" alt="AI-generated map example 9" width="100%"></td>
+</tr>
+<tr>
+<td width="33%"><img src="docs/output-examples/awbw-4215658693.png" alt="AI-generated map example 10" width="100%"></td>
+<td width="33%"><img src="docs/output-examples/awbw-2095361157.png" alt="AI-generated map example 11" width="100%"></td>
+<td width="33%"><img src="docs/output-examples/awbw-3446816268.png" alt="AI-generated map example 12" width="100%"></td>
+</tr>
+</table>
+
 ## Install on Windows
 
 You need **64-bit Windows**, **Python 3.12**, and a browser. The standard installer uses your CPU, so a dedicated graphics card is optional.
@@ -63,31 +88,6 @@ Tags and counts should agree: requesting predeployed transports while setting al
 - **Constraints not met:** one or more requests were missed. Try another draft, change the settings, or edit the result.
 
 A correction count reports automatic adjustments; it is not a quality score.
-
-## Output examples
-
-<table>
-<tr>
-<td width="33%"><img src="docs/output-examples/awbw-2368027084.png" alt="AI-generated map example 1" width="100%"></td>
-<td width="33%"><img src="docs/output-examples/awbw-1954601625.png" alt="AI-generated map example 2" width="100%"></td>
-<td width="33%"><img src="docs/output-examples/awbw-1620791838.png" alt="AI-generated map example 3" width="100%"></td>
-</tr>
-<tr>
-<td width="33%"><img src="docs/output-examples/awbw-3893139532.png" alt="AI-generated map example 4" width="100%"></td>
-<td width="33%"><img src="docs/output-examples/awbw-2003019075.png" alt="AI-generated map example 5" width="100%"></td>
-<td width="33%"><img src="docs/output-examples/awbw-713193144.png" alt="AI-generated map example 6" width="100%"></td>
-</tr>
-<tr>
-<td width="33%"><img src="docs/output-examples/awbw-150166506.png" alt="AI-generated map example 7" width="100%"></td>
-<td width="33%"><img src="docs/output-examples/awbw-2369362234.png" alt="AI-generated map example 8" width="100%"></td>
-<td width="33%"><img src="docs/output-examples/awbw-1044584968.png" alt="AI-generated map example 9" width="100%"></td>
-</tr>
-<tr>
-<td width="33%"><img src="docs/output-examples/awbw-4215658693.png" alt="AI-generated map example 10" width="100%"></td>
-<td width="33%"><img src="docs/output-examples/awbw-2095361157.png" alt="AI-generated map example 11" width="100%"></td>
-<td width="33%"><img src="docs/output-examples/awbw-3446816268.png" alt="AI-generated map example 12" width="100%"></td>
-</tr>
-</table>
 
 ## The Generation panel
 
